@@ -10,6 +10,11 @@ p {
 	color: white;
 }
 
+li {
+	font-size: 20px;
+	color: white;
+}
+
 /*div {
 	border: 1px red solid;
 }*/
@@ -49,9 +54,17 @@ p {
 #workhistory {
 	display: inline-block;
 	position: absolute;
-	left: 40%;
+	left: 41%;
 	right: 25%;
-	top: 85%;
+	top: 88%;
+}
+
+#samplebox {
+	display: inline-block;
+	position: absolute;
+	left: 3%;
+	right: 60%;
+	top: 88%;
 }
 
 #heading1 {
