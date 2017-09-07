@@ -1,86 +1,25 @@
 body {
-	background-color: #18061b;
-	margin: 0;
-	margin-bottom: 1000px;
-	font-family: Helvetica;
+
 }
 
-p {
-	font-size: 20px;
-	color: white;
-}
 
-li {
-	font-size: 20px;
-	color: white;
+/*.card { 
+	background-color: rgba(245, 245, 245, 0.4); 
+	opacity: .4;
 }
-
-/*div {
-	border: 1px red solid;
+.card-strong { 
+	opacity: 1
 }*/
 
-#first {
-	background-image: url(/my_site/images/coffee-banner.jpg);
-	background-repeat: repeat-x;
-	width: 100%;
-	height: 720px;
+
+.coffee-background {
+    background-image: url("http://unitedvending.com/img/coffee-banner.jpg");
 }
 
-#head {
-	display: inline-block;
-	position: absolute;
-	font-family: 'Indie Flower', cursive;
-	left: 3%;
-	top: 5%;
-	font-size: 30px;
-	color: white;
+.top-break {
+	margin-top: 15%;
 }
 
-#profile {
-	display: inline-block;
-	position: absolute;
-	left: 3%;
-	right: 60%;
-	top: 35%;
-}
-
-#linkedin {
-	display: inline-block;
-	position: absolute;
-	left: 30%;
-	top: 37%;
-}
-
-#workhistory {
-	display: inline-block;
-	position: absolute;
-	left: 41%;
-	right: 25%;
-	top: 88%;
-}
-
-#samplebox {
-	display: inline-block;
-	position: absolute;
-	left: 3%;
-	right: 60%;
-	top: 88%;
-}
-
-#heading1 {
-	color: white;
-} 
-
-.borders {
-	border-style: solid;
-	border-radius: 5px;
-	border-width: 3px;
-	border-color: white;
-}
-
-.headings {
-	font-weight: bold;
-	font-family: 'Indie Flower', cursive;
-	font-size: 40px;
-	color: white;
+nav {
+	position: fixed;
 }
